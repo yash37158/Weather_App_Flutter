@@ -1,0 +1,43 @@
+name: weather_ys
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^1.1.1
+  flutter_svg: ^0.19.1
+  transformer_page_view: ^0.1.6
+
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - android/assets/night_img.jpg
+    - android/assets/rain_img.jpg
+    - android/assets/cloudy_img.jpg
+    - android/assets/sunny_img.jpg
+    - android/assets/menu.svg
+    - android/assets/moon.svg
+    - android/assets/cloudy.svg
+    - android/assets/raining.svg
+    - android/assets/sun.svg
+
+ 
